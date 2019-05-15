@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CB9FDFD228AC09A006A5830 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB9FDFC228AC09A006A5830 /* AppDelegate.m */; };
+		9CB9FE00228AC09A006A5830 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB9FDFF228AC09A006A5830 /* ViewController.m */; };
+		9CB9FE03228AC09A006A5830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB9FE01228AC09A006A5830 /* Main.storyboard */; };
+		9CB9FE05228AC09D006A5830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB9FE04228AC09D006A5830 /* Assets.xcassets */; };
+		9CB9FE08228AC09D006A5830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB9FE06228AC09D006A5830 /* LaunchScreen.storyboard */; };
+		9CB9FE0B228AC09D006A5830 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB9FE0A228AC09D006A5830 /* main.m */; };
+		9CB9FE15228AC09D006A5830 /* ThrottleTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB9FE14228AC09D006A5830 /* ThrottleTextFieldTests.m */; };
+		9CB9FE20228AC09D006A5830 /* ThrottleTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB9FE1F228AC09D006A5830 /* ThrottleTextFieldUITests.m */; };
+		9CB9FE2F228AC0B4006A5830 /* LQRTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB9FE2E228AC0B4006A5830 /* LQRTextField.m */; };
+		9CB9FE32228BB638006A5830 /* 放大镜.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CB9FE31228BB638006A5830 /* 放大镜.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CB9FE11228AC09D006A5830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CB9FDF0228AC09A006A5830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CB9FDF7228AC09A006A5830;
+			remoteInfo = ThrottleTextField;
+		};
+		9CB9FE1C228AC09D006A5830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CB9FDF0228AC09A006A5830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CB9FDF7228AC09A006A5830;
+			remoteInfo = ThrottleTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CB9FDF8228AC09A006A5830 /* ThrottleTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThrottleTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB9FDFB228AC09A006A5830 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CB9FDFC228AC09A006A5830 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CB9FDFE228AC09A006A5830 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9CB9FDFF228AC09A006A5830 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9CB9FE02228AC09A006A5830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CB9FE04228AC09D006A5830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CB9FE07228AC09D006A5830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CB9FE09228AC09D006A5830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB9FE0A228AC09D006A5830 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CB9FE10228AC09D006A5830 /* ThrottleTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThrottleTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB9FE14228AC09D006A5830 /* ThrottleTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThrottleTextFieldTests.m; sourceTree = "<group>"; };
+		9CB9FE16228AC09D006A5830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB9FE1B228AC09D006A5830 /* ThrottleTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThrottleTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB9FE1F228AC09D006A5830 /* ThrottleTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThrottleTextFieldUITests.m; sourceTree = "<group>"; };
+		9CB9FE21228AC09D006A5830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB9FE2D228AC0B4006A5830 /* LQRTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQRTextField.h; sourceTree = "<group>"; };
+		9CB9FE2E228AC0B4006A5830 /* LQRTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQRTextField.m; sourceTree = "<group>"; };
+		9CB9FE31228BB638006A5830 /* 放大镜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "放大镜.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CB9FDF5228AC09A006A5830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB9FE0D228AC09D006A5830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB9FE18228AC09D006A5830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CB9FDEF228AC09A006A5830 = {
+			isa = PBXGroup;
+			children = (
+				9CB9FDFA228AC09A006A5830 /* ThrottleTextField */,
+				9CB9FE13228AC09D006A5830 /* ThrottleTextFieldTests */,
+				9CB9FE1E228AC09D006A5830 /* ThrottleTextFieldUITests */,
+				9CB9FDF9228AC09A006A5830 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CB9FDF9228AC09A006A5830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CB9FDF8228AC09A006A5830 /* ThrottleTextField.app */,
+				9CB9FE10228AC09D006A5830 /* ThrottleTextFieldTests.xctest */,
+				9CB9FE1B228AC09D006A5830 /* ThrottleTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CB9FDFA228AC09A006A5830 /* ThrottleTextField */ = {
+			isa = PBXGroup;
+			children = (
+				9CB9FE30228BA051006A5830 /* LQRTextField */,
+				9CB9FDFB228AC09A006A5830 /* AppDelegate.h */,
+				9CB9FDFC228AC09A006A5830 /* AppDelegate.m */,
+				9CB9FDFE228AC09A006A5830 /* ViewController.h */,
+				9CB9FDFF228AC09A006A5830 /* ViewController.m */,
+				9CB9FE31228BB638006A5830 /* 放大镜.png */,
+				9CB9FE01228AC09A006A5830 /* Main.storyboard */,
+				9CB9FE04228AC09D006A5830 /* Assets.xcassets */,
+				9CB9FE06228AC09D006A5830 /* LaunchScreen.storyboard */,
+				9CB9FE09228AC09D006A5830 /* Info.plist */,
+				9CB9FE0A228AC09D006A5830 /* main.m */,
+			);
+			path = ThrottleTextField;
+			sourceTree = "<group>";
+		};
+		9CB9FE13228AC09D006A5830 /* ThrottleTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CB9FE14228AC09D006A5830 /* ThrottleTextFieldTests.m */,
+				9CB9FE16228AC09D006A5830 /* Info.plist */,
+			);
+			path = ThrottleTextFieldTests;
+			sourceTree = "<group>";
+		};
+		9CB9FE1E228AC09D006A5830 /* ThrottleTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CB9FE1F228AC09D006A5830 /* ThrottleTextFieldUITests.m */,
+				9CB9FE21228AC09D006A5830 /* Info.plist */,
+			);
+			path = ThrottleTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		9CB9FE30228BA051006A5830 /* LQRTextField */ = {
+			isa = PBXGroup;
+			children = (
+				9CB9FE2D228AC0B4006A5830 /* LQRTextField.h */,
+				9CB9FE2E228AC0B4006A5830 /* LQRTextField.m */,
+			);
+			path = LQRTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CB9FDF7228AC09A006A5830 /* ThrottleTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB9FE24228AC09D006A5830 /* Build configuration list for PBXNativeTarget "ThrottleTextField" */;
+			buildPhases = (
+				9CB9FDF4228AC09A006A5830 /* Sources */,
+				9CB9FDF5228AC09A006A5830 /* Frameworks */,
+				9CB9FDF6228AC09A006A5830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThrottleTextField;
+			productName = ThrottleTextField;
+			productReference = 9CB9FDF8228AC09A006A5830 /* ThrottleTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CB9FE0F228AC09D006A5830 /* ThrottleTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB9FE27228AC09D006A5830 /* Build configuration list for PBXNativeTarget "ThrottleTextFieldTests" */;
+			buildPhases = (
+				9CB9FE0C228AC09D006A5830 /* Sources */,
+				9CB9FE0D228AC09D006A5830 /* Frameworks */,
+				9CB9FE0E228AC09D006A5830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CB9FE12228AC09D006A5830 /* PBXTargetDependency */,
+			);
+			name = ThrottleTextFieldTests;
+			productName = ThrottleTextFieldTests;
+			productReference = 9CB9FE10228AC09D006A5830 /* ThrottleTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CB9FE1A228AC09D006A5830 /* ThrottleTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB9FE2A228AC09D006A5830 /* Build configuration list for PBXNativeTarget "ThrottleTextFieldUITests" */;
+			buildPhases = (
+				9CB9FE17228AC09D006A5830 /* Sources */,
+				9CB9FE18228AC09D006A5830 /* Frameworks */,
+				9CB9FE19228AC09D006A5830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CB9FE1D228AC09D006A5830 /* PBXTargetDependency */,
+			);
+			name = ThrottleTextFieldUITests;
+			productName = ThrottleTextFieldUITests;
+			productReference = 9CB9FE1B228AC09D006A5830 /* ThrottleTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CB9FDF0228AC09A006A5830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = LQR;
+				TargetAttributes = {
+					9CB9FDF7228AC09A006A5830 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9CB9FE0F228AC09D006A5830 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9CB9FDF7228AC09A006A5830;
+					};
+					9CB9FE1A228AC09D006A5830 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9CB9FDF7228AC09A006A5830;
+					};
+				};
+			};
+			buildConfigurationList = 9CB9FDF3228AC09A006A5830 /* Build configuration list for PBXProject "ThrottleTextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CB9FDEF228AC09A006A5830;
+			productRefGroup = 9CB9FDF9228AC09A006A5830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CB9FDF7228AC09A006A5830 /* ThrottleTextField */,
+				9CB9FE0F228AC09D006A5830 /* ThrottleTextFieldTests */,
+				9CB9FE1A228AC09D006A5830 /* ThrottleTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CB9FDF6228AC09A006A5830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB9FE08228AC09D006A5830 /* LaunchScreen.storyboard in Resources */,
+				9CB9FE05228AC09D006A5830 /* Assets.xcassets in Resources */,
+				9CB9FE03228AC09A006A5830 /* Main.storyboard in Resources */,
+				9CB9FE32228BB638006A5830 /* 放大镜.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB9FE0E228AC09D006A5830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB9FE19228AC09D006A5830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CB9FDF4228AC09A006A5830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB9FE2F228AC0B4006A5830 /* LQRTextField.m in Sources */,
+				9CB9FE00228AC09A006A5830 /* ViewController.m in Sources */,
+				9CB9FE0B228AC09D006A5830 /* main.m in Sources */,
+				9CB9FDFD228AC09A006A5830 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB9FE0C228AC09D006A5830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB9FE15228AC09D006A5830 /* ThrottleTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB9FE17228AC09D006A5830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB9FE20228AC09D006A5830 /* ThrottleTextFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CB9FE12228AC09D006A5830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CB9FDF7228AC09A006A5830 /* ThrottleTextField */;
+			targetProxy = 9CB9FE11228AC09D006A5830 /* PBXContainerItemProxy */;
+		};
+		9CB9FE1D228AC09D006A5830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CB9FDF7228AC09A006A5830 /* ThrottleTextField */;
+			targetProxy = 9CB9FE1C228AC09D006A5830 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CB9FE01228AC09A006A5830 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CB9FE02228AC09A006A5830 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CB9FE06228AC09D006A5830 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CB9FE07228AC09D006A5830 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CB9FE22228AC09D006A5830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9CB9FE23228AC09D006A5830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CB9FE25228AC09D006A5830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThrottleTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yjsale.ThrottleTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CB9FE26228AC09D006A5830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThrottleTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yjsale.ThrottleTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9CB9FE28228AC09D006A5830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThrottleTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yjsale.ThrottleTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThrottleTextField.app/ThrottleTextField";
+			};
+			name = Debug;
+		};
+		9CB9FE29228AC09D006A5830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThrottleTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yjsale.ThrottleTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThrottleTextField.app/ThrottleTextField";
+			};
+			name = Release;
+		};
+		9CB9FE2B228AC09D006A5830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThrottleTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yjsale.ThrottleTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThrottleTextField;
+			};
+			name = Debug;
+		};
+		9CB9FE2C228AC09D006A5830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThrottleTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yjsale.ThrottleTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThrottleTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CB9FDF3228AC09A006A5830 /* Build configuration list for PBXProject "ThrottleTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB9FE22228AC09D006A5830 /* Debug */,
+				9CB9FE23228AC09D006A5830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB9FE24228AC09D006A5830 /* Build configuration list for PBXNativeTarget "ThrottleTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB9FE25228AC09D006A5830 /* Debug */,
+				9CB9FE26228AC09D006A5830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB9FE27228AC09D006A5830 /* Build configuration list for PBXNativeTarget "ThrottleTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB9FE28228AC09D006A5830 /* Debug */,
+				9CB9FE29228AC09D006A5830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB9FE2A228AC09D006A5830 /* Build configuration list for PBXNativeTarget "ThrottleTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB9FE2B228AC09D006A5830 /* Debug */,
+				9CB9FE2C228AC09D006A5830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CB9FDF0228AC09A006A5830 /* Project object */;
+}
